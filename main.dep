@@ -11,10 +11,10 @@
       <file>$PROJ_DIR$\uart0.c</file>
       <file>$TOOLKIT_DIR$\inc\ioavr.h</file>
       <file>$PROJ_DIR$\Debug\Obj\main.pbd</file>
-      <file>$PROJ_DIR$\Debug\Obj\uart0.r90</file>
       <file>$TOOLKIT_DIR$\inc\bitdefinitions\iom328p.inc</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\main.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart0.r90</file>
       <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
       <file>$TOOLKIT_DIR$\lib\clib\cl3s-ec_mul-sf.r90</file>
       <file>$TOOLKIT_DIR$\inc\iom328p.h</file>
@@ -27,22 +27,22 @@
       <name>$PROJ_DIR$\main.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 7</file>
+          <name>ICCAVR</name>
+          <file> 6</file>
         </tool>
         <tool>
-          <name>ICCAVR</name>
-          <file> 8</file>
+          <name>BICOMP</name>
+          <file> 7</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 3 11 9 6 14 15</file>
+          <name>ICCAVR</name>
+          <file> 3 11 9 5 14 15</file>
         </tool>
         <tool>
-          <name>ICCAVR</name>
-          <file> 3 11 9 6 14 15</file>
+          <name>BICOMP</name>
+          <file> 3 11 9 5 14 15</file>
         </tool>
       </inputs>
     </file>
@@ -51,7 +51,7 @@
       <inputs>
         <tool>
           <name>XLINK</name>
-          <file> 12 8 5 10</file>
+          <file> 12 6 8 10</file>
         </tool>
       </inputs>
     </file>
@@ -59,22 +59,22 @@
       <name>$PROJ_DIR$\uart0.c</name>
       <outputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 13</file>
+          <name>ICCAVR</name>
+          <file> 8</file>
         </tool>
         <tool>
-          <name>ICCAVR</name>
-          <file> 5</file>
+          <name>BICOMP</name>
+          <file> 13</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 14 3 11 9 6 15</file>
+          <name>ICCAVR</name>
+          <file> 14 3 11 9 5 15</file>
         </tool>
         <tool>
-          <name>ICCAVR</name>
-          <file> 14 3 11 9 6 15</file>
+          <name>BICOMP</name>
+          <file> 14 3 11 9 5 15</file>
         </tool>
       </inputs>
     </file>
