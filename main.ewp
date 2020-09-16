@@ -1999,7 +1999,13 @@
     </settings>
   </configuration>
   <file>
-    <name>$PROJ_DIR$\main.c</name>
+    <name>$PROJ_DIR$\test.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\timer.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\timer_task.c</name>
   </file>
   <file>
     <name>$PROJ_DIR$\uart0.c</name>
